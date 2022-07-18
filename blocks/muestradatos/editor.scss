@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-giraldez-block-muestradatos {
+	display: flex;
+
+	> div {
+		width: calc(100% / 3);
+
+		&:nth-child(2) {
+			margin-right: 1rem;
+			margin-left: 1rem;
+		}
+	}
+ }

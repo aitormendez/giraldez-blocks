@@ -1,0 +1,56 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "giraldez-block/muestradatos",
+	"version": "0.1.0",
+	"title": "Muestra datos",
+	"category": "giraldez",
+	"icon": "megaphone",
+	"description": "Muestra tres datos en grande con el diseño inclinado de AG.",
+	"supports": {
+		"align": [ "wide", "full" ],
+		"html": false
+	},
+	"textdomain": "giraldez-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+    "leyenda1": {
+        "type": "string",
+        "source": "text",
+        "selector": "p.leyenda1",
+        "default": ""
+    },
+    "dato1": {
+        "type": "string",
+        "source": "text",
+        "selector": "p.dato1",
+        "default": ""
+    },
+    "leyenda2": {
+        "type": "string",
+        "source": "text",
+        "selector": "p.leyenda1",
+        "default": ""
+    },
+    "dato2": {
+        "type": "string",
+        "source": "text",
+        "selector": "p.dato1",
+        "default": ""
+    },
+    "leyenda3": {
+        "type": "string",
+        "source": "text",
+        "selector": "p.leyenda1",
+        "default": ""
+    },
+    "dato3": {
+        "type": "string",
+        "source": "text",
+        "selector": "p.dato1",
+        "default": ""
+    }
+	}
+}

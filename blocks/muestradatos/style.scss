@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-giraldez-block-muestradatos {
+	width: 100%;
+	display: flex;
+
+	> div {
+		width: 100%;
+	}
+
+	.blqe {
+		width: calc(100% / 3);
+
+		.leyenda {
+			line-height: 1.1em;
+		}
+	}
+ }
